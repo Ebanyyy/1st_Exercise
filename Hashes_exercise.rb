@@ -34,6 +34,14 @@ puts merge_hash(s1, s2)
 
 
 # 3. Hash Sorting
+fruits = {"Banana": 6, "Strawberry": 10, "Apple": 5}
+
+def Sort_alph(fruits)
+	fruits = fruits.sort_by { |key| }
+
+end
+
+puts fruits
 
 # 4. Hash Inversion
 def hash_inversion(h)
@@ -50,5 +58,3 @@ h3 = {"Snake": 0, "Cat": 4, "Bird": 2}
 puts h1.invert
 puts h2.invert
 puts h3.invert
-
-# 5. Hash Lookup
