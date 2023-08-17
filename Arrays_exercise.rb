@@ -17,7 +17,7 @@ end
 
 # 4. reverse array
 def rev_ar(no)
-	"#{no} in reverse = #{no.reverse!()}"
+	"#{no.each_index.map {|i| no[-1-i]}}"
 end
 
 # 5. array rotation
